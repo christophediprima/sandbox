@@ -1,0 +1,33 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "A place to try things",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophediprima/sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christophediprima/sandbox/issues"
+  },
+  "homepage": "https://github.com/christophediprima/sandbox#readme",
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "fork-ts-checker-webpack-plugin": "^0.4.14",
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0"
+  }
+}
